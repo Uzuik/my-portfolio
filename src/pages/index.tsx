@@ -5,7 +5,7 @@ import { ProjectRepository } from "domain/repository";
 import { GetProjectsUseCase, ProjectObject } from "application/usecase";
 import { Home as HomePage } from "presentation/components";
 
-const Home: NextPage<{ projects: ProjectObject[] }> = ({ projects }) => {
+const Home: NextPage = () => {
   return <HomePage />;
 };
 
