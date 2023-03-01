@@ -11,7 +11,6 @@ export default function App({ Component, pageProps }: AppProps) {
         <title>薄 岳洋のポートフォリオ</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="robots" content="noindex" />
-        {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
       <Component {...pageProps} />
     </ChakraProvider>
